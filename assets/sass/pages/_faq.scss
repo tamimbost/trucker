@@ -1,0 +1,48 @@
+// Start Faq Style 1 & including (Home One)
+.trucker__faq-style-1 .trucker__faq-item {
+    background-color: #fff;
+    border: 1px solid #EBEBEB;
+    transition: linear 0.3s ease-in;
+    margin-bottom: 24px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+    h3{
+        transition: linear 0.3s;
+    }
+    &:hover{
+        h3{
+            color: $trucker__green;
+        }
+        svg{
+            color: $trucker__green;
+        }
+    }
+}
+// End Faq Style 1 & including (Home One)
+
+// Start Faq duffelt Style
+.trucker__faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem;
+}
+
+.trucker__faq-answer {
+    display: none;
+    padding: 5px 1rem 20px 1rem;
+}
+
+.trucker__icon svg {
+    width: 20px;
+    height: 20px;
+    color: rgba(6, 46, 57, 1);
+}
+
+.trucker__hidden {
+    display: none;
+}
+// End Faq duffelt Style

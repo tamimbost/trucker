@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story By Si Tamim</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            background-color: #f5f1e8;
+            color: #3e3d32;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 700px;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+            font-size: 20px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background-color: #ddd;
+        }
+        .progress {
+            width: 0;
+            height: 100%;
+            background-color: #4CAF50;
+            transition: width 0.3s ease;
+        }
+        .chapter {
+            opacity: 0.5;
+            transition: opacity 0.3s ease;
+        }
+        .chapter.read {
+            opacity: 1;
+        }
+        #progress-indicator {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+    </div>
+    <div class="container">
+        <h1>গল্পের নাম : রডোডেনড্রন  </h1>
+        <img src="Screenshot_3.png" alt="Story" style="width: 100%; display: block; text-align: center; margin-left: auto;margin-right:auto;">
+        <div class="chapter" data-chapter="1">
+            <h2>1</h2>
+            <p>পৃথিবীর সবচাইতে বিস্তৃত উপনিবেশিক ফুল বোধ হয় এই রডোডেনড্রন। নাম শুনলে মনে হবে ইউরোপীয় কোনও ফুল। কিন্তু জাতে এটি একেবারেই আমাদের উপমহাদেশীয়। আরো ভালোভাবে বললে, রডোডেনড্রন পূর্ব হিমালয়ের অখ্যাত একটি পার্বত্য ফুল যা এক তরুপ ব্রিটিশ অভিযাত্রীর হাত ধরে পৌঁছে গিয়েছিল ইউরোপের ঘরে ঘরে, এমনকি মহারাণীর রাজকীয় বাগানে।</p>
+        </div>
+        <div class="chapter" data-chapter="2">
+            <h2>2</h2>
+            <p>আমি যেই সময়কার কথা বলছি তখনও লেখাপড়া, গবেষণা করা এখনকার মত বানিজ্যমুখীই ছিল। আগেই দেখে নেয়া হত এই গবেষণার রিটার্ন অন ইনভেস্টমেন্ট কত? কমার্সিয়াল এসপেক্ট না থাকলে সেই গবেষণার তখনও কোন ভ্যালু ছিল না। সবাই চেষ্টা করত কিভাবে সমাজের উঁচুস্তরের পয়সাওয়ালা কারও পৃষ্ঠপোষকতা পাওয়া যায়।</p>
+        </div>
+        <!-- ... (rest of the chapters) ... -->
+        <div class="chapter" data-chapter="10">
+            <h2>10</h2>
+            <p>হুকারের আঁকা এই সব রডোডেনড্রনের অজস্র 'ফিল্ড স্কেচ-এর লিথোগ্রাফ কপি নিয়ে পরে প্রকাশিত হয়েছিল ওয়াল্টার হুড ফিচ-এর বিখ্যাত বই 'দ্য রডোডেনড্রনস অব সিকিম- হিমালায়াজ।
+                ১৮৫১ সালে হুকার ভারত থেকে ফিরে যান স্বদেশে— রডোডেনড্রনের প্রায় ৭০০০ প্রজাতির নমুনা সঙ্গে নিয়ে। চার বছর পর, ১৮৫৫ সালে প্রকাশিত হয় ভারতীয় গাছপালা নিয়ে লেখা তাঁর বই 'ফ্লোরা ইন্ডিকা।
+                কিন্তু তাঁর সবচেয়ে চমকপ্রদ কাজ বোধ হয় দ্যা হিমালায়ান ডায়রিজ। তাঁর এই অনুসন্ধানী অভিযানের টুকরো কিছু গল্প নিয়ে দ্বিজেন শর্মা লিখেছিলেন হিমালয়ের উদ্ভিদরাজ্যে: ডাল্টন হুকার। এই লিখাটি সেই বই থেকেই অনেকখানি উদ্‌ধৃত। পাহাড় প্রেমীদের বইটি অবশ্যই পড়া উচিত।
+                ছবিতে রোলওয়ালিং খোলা নদীর উপর ঝুলে থাকা এই রডোডেনড্রন গাছটি দেখে মুগ্ধ হয়ে পড়েছিলাম। তখনই মাথায় ঢুকে গিয়েছিল হুকার আর মহীনের ঘোড়াগুলি। হুকারের চিন্তা পাশে রেখে গুনগুন করে উঠেছিলাম: <br>
+                '....সুতো বাঁধা যত লাল আর সাদা <br>
+                ওড়াই আমার থতমত এই শহরে <br>
+                রডোডেনড্রন <br>
+                তোমায় দিলাম আজ...' <br></p>
+        </div>
+    </div>
+    <div id="progress-indicator">0% Read</div>
+
+    <script>
+        const chapters = document.querySelectorAll('.chapter');
+        const progress = document.getElementById('progress');
+        const progressIndicator = document.getElementById('progress-indicator');
+
+        function updateProgress() {
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight - windowHeight;
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const scrollPercentage = (scrollTop / documentHeight) * 100;
+
+            progress.style.width = scrollPercentage + '%';
+            progressIndicator.textContent = Math.round(scrollPercentage) + '% Read';
+
+            chapters.forEach(chapter => {
+                const chapterTop = chapter.offsetTop;
+                const chapterBottom = chapterTop + chapter.offsetHeight;
+                if (scrollTop + windowHeight > chapterTop && scrollTop < chapterBottom) {
+                    chapter.classList.add('read');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', updateProgress);
+        window.addEventListener('resize', updateProgress);
+        updateProgress(); // Initial call to set progress on page load
+    </script>
+</body>
+</html>
+
