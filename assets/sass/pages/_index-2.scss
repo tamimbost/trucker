@@ -677,6 +677,8 @@
                 }
             }
             .trucker__counter-value {
+                overflow: hidden;
+                padding-right: 6px;
                 @include trucker__screen-991 {
                     text-align: center;
                 }

@@ -822,10 +822,6 @@ textarea {
   overflow: unset;
 }
 
-.odometer-inside {
-  width: 105%;
-}
-
 .mtFadeInUp {
   opacity: 0; /* Start invisible */
   animation: mtFadeInUp 2s ease-out forwards; /* 2 seconds duration, ease-out effect */
@@ -5158,6 +5154,10 @@ textarea {
   .trucker__counter-area-home-2 .trucker__counter-wrapper .trucker__counter-item::after {
     height: 100%;
   }
+}
+.trucker__counter-area-home-2 .trucker__counter-wrapper .trucker__counter-item .trucker__counter-value {
+  overflow: hidden;
+  padding-right: 6px;
 }
 @media (max-width: 991px) {
   .trucker__counter-area-home-2 .trucker__counter-wrapper .trucker__counter-item .trucker__counter-value {
