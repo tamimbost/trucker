@@ -207,9 +207,9 @@
     // Start Range Bar Activation
     rangeBarActivation: function (){
       $(document).ready(function () {
-        $('#rangeSlider').on('input', function () {
+        $('.rangeSlider').on('input', function () {
             const value = $(this).val();
-            $('#rangeValue').text(value);    
+            $('.rangeValue').text(value);    
             const percentage = (value / $(this).attr('max')) * 100;
             $(this).css('background', `linear-gradient(to right, #062E39 ${percentage}%, #FFFFFF ${percentage}%)`);
         });

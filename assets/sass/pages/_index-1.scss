@@ -582,7 +582,7 @@
 // Start Team Area
 .trucker__team-area-home-1{
     position: relative;
-    padding-top: 30px;
+    padding-top: 130px;
     @include trucker__screen-991{
         padding-top: 100px;
     }
@@ -676,7 +676,7 @@
                 .trucker__team-info{
                     box-shadow: -9px -20px 45px 0px rgba(0, 0, 0, 0.1);
                     .trucker__team-social-media-wrapper{
-                        bottom: 135px;
+                        top: 135px;
                     }
                 }
                 .trucker__team-picture-wrapper{

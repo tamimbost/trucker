@@ -7,6 +7,37 @@
     height: 1047px;
     z-index: 1;
     background-color: #E7F8F8;
+    &.trucker__breadcrumb-area{
+        height: 452px;
+        .trucker__breadcrumb-wrapper{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .trucker__breadcrumb-menu{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 22px;
+                margin-top: 19px;
+                a{
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: $trucker__primary-color;
+                    line-height: 28px;
+                    transition: $trucker__transition;
+                    font-family: $trucker__jost-font;
+                    &:hover{
+                        color: $trucker__green;
+                    }
+                }
+                .trucker__breadcrumb-icon{
+                    color: $trucker__primary-color;
+
+                }
+            }
+        }
+    }
     &::before{
         content: '';
         position: absolute;

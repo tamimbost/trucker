@@ -1934,6 +1934,36 @@ textarea {
   z-index: 1;
   background-color: #E7F8F8;
 }
+.trucker__hero-area.trucker__breadcrumb-area {
+  height: 452px;
+}
+.trucker__hero-area.trucker__breadcrumb-area .trucker__breadcrumb-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.trucker__hero-area.trucker__breadcrumb-area .trucker__breadcrumb-wrapper .trucker__breadcrumb-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 19px;
+}
+.trucker__hero-area.trucker__breadcrumb-area .trucker__breadcrumb-wrapper .trucker__breadcrumb-menu a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 28px;
+  transition: linear 0.4s;
+  font-family: "Jost", serif;
+}
+.trucker__hero-area.trucker__breadcrumb-area .trucker__breadcrumb-wrapper .trucker__breadcrumb-menu a:hover {
+  color: #2A9D8F;
+}
+.trucker__hero-area.trucker__breadcrumb-area .trucker__breadcrumb-wrapper .trucker__breadcrumb-menu .trucker__breadcrumb-icon {
+  color: #FFFFFF;
+}
 .trucker__hero-area::before {
   content: "";
   position: absolute;
@@ -2192,9 +2222,15 @@ textarea {
   line-height: 45px;
   color: #062E39;
 }
+.trucker__close-btn i {
+  transition: 0.9s;
+}
 .trucker__close-btn:hover {
   color: #2A9D8F;
   border-color: #2A9D8F;
+}
+.trucker__close-btn:hover i {
+  rotate: 360deg;
 }
 
 .trucker__mobile-menu-search {
@@ -3747,7 +3783,7 @@ textarea {
 
 .trucker__team-area-home-1 {
   position: relative;
-  padding-top: 30px;
+  padding-top: 130px;
 }
 @media (max-width: 991px) {
   .trucker__team-area-home-1 {
@@ -3846,7 +3882,7 @@ textarea {
   box-shadow: -9px -20px 45px 0px rgba(0, 0, 0, 0.1);
 }
 .trucker__team-area-home-1 .trucker__team-inner .trucker__team-item.trucker__team-item-mid .trucker__team-info .trucker__team-social-media-wrapper {
-  bottom: 135px;
+  top: 135px;
 }
 .trucker__team-area-home-1 .trucker__team-inner .trucker__team-item.trucker__team-item-mid .trucker__team-picture-wrapper {
   box-shadow: 19px 20px 45px 0px rgba(0, 0, 0, 0.1);
