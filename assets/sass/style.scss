@@ -24,7 +24,7 @@ Developed By : MD Saiful Islam Tamim
 @import "components/header";
 @import "components/buttons";
 @import "components/footer";
-@import "components/breadcrumb";
+@import "components/sitebar";
 @import "components/blog";
 @import "components/hero";
 @import "components/_mobile-menu";
@@ -39,5 +39,5 @@ Developed By : MD Saiful Islam Tamim
 /****************************** page styles ******************************/
 @import "pages/index-1";
 @import "pages/index-2";
-@import "pages/inner";
+@import "pages/blog-details";
 @import "pages/faq";
