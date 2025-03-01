@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Sidebar - End Footer</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .content {
+            flex: 3;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+            background: #f4f4f4;
+            height: 100vh;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        .sticky {
+            position:sticky;
+            top: 10px;
+            width: 250px; /* Adjust based on sidebar width */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Main Content</h1>
+            <p>Long content here...</p>
+            <p style="height: 1500px;"></p>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <h2>Sidebar</h2>
+            <p>Sticky on scroll but stops at footer.</p>
+        </div>
+    </div>
+    <div class="footer">Footer Section</div>
+    
+    <script>
+        $(document).ready(function () {
+            var sidebar = $('#sidebar');
+            var sidebarHeight = sidebar.outerHeight();
+            var sidebarTop = sidebar.offset().top;
+            var footerOffset = $('.footer').offset().top;
+            
+            $(window).scroll(function () {
+                var scrollTop = $(window).scrollTop();
+                var sidebarBottom = scrollTop + sidebarHeight + 10; // Adjusted for spacing
+                
+                if (scrollTop > sidebarTop && sidebarBottom < footerOffset) {
+                    sidebar.addClass('sticky');
+                } else {
+                    sidebar.removeClass('sticky');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
