@@ -583,6 +583,29 @@
 .trucker__team-area-home-1{
     position: relative;
     padding-top: 130px;
+    &.trucker__team-area-inner-page{
+        padding-bottom: 130px;
+        @include trucker__screen-991{
+            padding-bottom: 100px;
+        }
+        @include trucker__screen-767{
+            padding-bottom: 80px;
+        }
+        .trucker__team-inner{
+            &:last-child{
+                margin-top: 24px;
+            }
+        }
+    }
+    &.trucker__team-area-inner-about-page{
+        padding-bottom: 130px;
+        @include trucker__screen-991{
+            padding-bottom: 100px;
+        }
+        @include trucker__screen-767{
+            padding-bottom: 80px;
+        }
+    }
     @include trucker__screen-991{
         padding-top: 100px;
     }

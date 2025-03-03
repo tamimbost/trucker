@@ -42,6 +42,9 @@
     .trucker__fast-box-title{
         margin-top: 32px;
         margin-bottom: 20px;
+        &.trucker__fast-box-title-blog-standard{
+            margin-top: 22px;
+        }
         @include trucker__screen-575{
             margin-top: 20px;
             margin-bottom: 12px;
