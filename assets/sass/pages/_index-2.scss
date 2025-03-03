@@ -4,9 +4,11 @@
     padding-top: 98px;
     padding-bottom: 77px;
     position: relative;
-    @media (max-width:1920px){
+
+    @media (max-width:1920px) {
         top: -164px;
     }
+
     .trucker__brand-title {
         margin-bottom: 58px;
 
@@ -33,10 +35,12 @@
     position: relative;
     padding-bottom: 70px;
     padding-top: 70px;
-    @media (max-width:1920px){
+
+    @media (max-width:1920px) {
         top: -31px;
         padding-top: 0;
     }
+
     @include trucker__screen-767 {
         top: -65px;
         padding-bottom: 60px;
@@ -311,6 +315,7 @@
         }
     }
 }
+
 // End Feature Area
 
 // Start Skill Bar Area
@@ -661,7 +666,8 @@
 
         .trucker__counter-item {
             position: relative;
-            &::after{
+
+            &::after {
                 content: "";
                 position: absolute;
                 width: 70px;
@@ -672,13 +678,16 @@
                 left: 0;
                 z-index: -1;
                 border-radius: 2px;
-                @include trucker__screen-767{
+
+                @include trucker__screen-767 {
                     height: 100%;
                 }
             }
+
             .trucker__counter-value {
                 overflow: hidden;
                 padding-right: 6px;
+
                 @include trucker__screen-991 {
                     text-align: center;
                 }
@@ -780,13 +789,16 @@
     position: relative;
     padding-top: 220px;
     padding-bottom: 130px;
-    @include trucker__screen-767{
+
+    @include trucker__screen-767 {
         padding-top: 130px;
     }
-    @include trucker__screen-439{
+
+    @include trucker__screen-439 {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
     .trucker__map-wrapper {
         position: relative;
 
@@ -801,10 +813,12 @@
             font-size: 130px;
             font-weight: 600;
             text-align: center;
-            @include trucker__screen-650{
+
+            @include trucker__screen-650 {
                 font-size: 90px;
             }
-            @include trucker__screen-439{
+
+            @include trucker__screen-439 {
                 font-size: 75px;
             }
         }
@@ -818,6 +832,7 @@
         }
     }
 }
+
 // End Map Area
 
 // Start Delivary System
@@ -835,30 +850,35 @@
         padding-top: 80px;
         padding-bottom: 80px;
     }
-    &.trucker__delivary-system-home-1{
+
+    &.trucker__delivary-system-home-1 {
         padding-top: 130px;
         padding-bottom: 117px;
+
         @include trucker__screen-991 {
             padding-top: 100px;
             padding-bottom: 100px;
         }
-    
+
         @include trucker__screen-767 {
             padding-top: 80px;
             padding-bottom: 80px;
         }
     }
+
     .trucker__delivary-items {
         position: relative;
         overflow: hidden;
-        img{
-            @include trucker__screen-767{
+
+        img {
+            @include trucker__screen-767 {
                 margin-left: auto;
                 margin-right: auto;
             }
         }
+
         &:hover {
-            .trucker__delivary-item-hover{
+            .trucker__delivary-item-hover {
                 width: 100%;
                 top: 0;
             }
@@ -878,23 +898,26 @@
         }
 
         .tucker__delivary-item-text {
-            position: absolute; 
+            position: absolute;
             bottom: 46px;
             left: 30px;
-            .trucker__delivary-sub-title{
-                @include trucker__screen-1499{
-                    br{
+
+            .trucker__delivary-sub-title {
+                @include trucker__screen-1499 {
+                    br {
                         display: none;
                     }
                 }
             }
-            .trucker__delivary-title{
-                @include trucker__screen-1199{
-                    br{
+
+            .trucker__delivary-title {
+                @include trucker__screen-1199 {
+                    br {
                         display: none;
                     }
                 }
             }
+
             .trucker__delivary-btn {
                 width: 50px;
                 height: 50px;
@@ -910,64 +933,79 @@
         }
     }
 }
+
 // End Delivary System
 
 // Start Testimonial Area
-.trucker__testimonial-area-home-2{
+.trucker__testimonial-area-home-2 {
     position: relative;
     padding-bottom: 130px;
-    &.trucker__testimonial-area-about-inner-page{
-        padding-top:130px;
+
+    &.trucker__testimonial-area-about-inner-page {
+        padding-top: 130px;
+
         @include trucker__screen-991 {
             padding-top: 100px;
         }
+
         @include trucker__screen-767 {
             padding-top: 80px;
         }
     }
+
     @include trucker__screen-991 {
         padding-bottom: 100px;
     }
+
     @include trucker__screen-767 {
         padding-bottom: 80px;
     }
-    .trucker__testimonial-inner{
+
+    .trucker__testimonial-inner {
         margin-top: 35px;
-        .trucker__testimonial-item{
+
+        .trucker__testimonial-item {
             padding: 55px 35px;
             box-shadow: 0px 7px 32px 0px rgba(0, 0, 0, 0.08);
             margin: 15px;
-            @include trucker__screen-767{
+
+            @include trucker__screen-767 {
                 padding: 30px 20px;
             }
-            .trucker__testimonial-items-wrapper{
+
+            .trucker__testimonial-items-wrapper {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 margin-bottom: 37px;
-                @include trucker__screen-575{
+
+                @include trucker__screen-575 {
                     display: block;
                     margin-bottom: 20px;
                 }
-                .trucker__testimonial-img-inner{
+
+                .trucker__testimonial-img-inner {
                     display: flex;
                     gap: 17px;
                     align-items: center;
-                    @include trucker__screen-575{
+
+                    @include trucker__screen-575 {
                         display: block;
                     }
                 }
-                .trucker__testimonial-quets{
-                    @include trucker__screen-575{
+
+                .trucker__testimonial-quets {
+                    @include trucker__screen-575 {
                         position: absolute;
                         top: 0;
-                        right:0;
+                        right: 0;
                     }
                 }
             }
-            .trucker__testimonial-peragraph{
-                @include trucker__screen-1299{
-                    br{
+
+            .trucker__testimonial-peragraph {
+                @include trucker__screen-1299 {
+                    br {
                         display: none !important;
                     }
                 }
@@ -975,10 +1013,11 @@
         }
     }
 }
+
 // End Testimonial Area
 
 // Start Blog Area
-.trucker__blog-area-home-2{
+.trucker__blog-area-home-2 {
     background-color: #F8FBFB;
     position: relative;
     padding-top: 130px;
@@ -993,134 +1032,166 @@
         padding-top: 80px;
         padding-bottom: 80px;
     }
-    .trucker__blog-inner{
+
+    .trucker__blog-inner {
         display: flex;
         gap: 60px;
         margin-top: 63px;
-        @include trucker__screen-1199{
+
+        @include trucker__screen-1199 {
             display: block;
         }
     }
-    .trucker__blog-details-left-inner{
+
+    .trucker__blog-details-left-inner {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
         top: -100px;
         position: relative;
     }
-    .trucker__blog-details{
+
+    .trucker__blog-details {
         filter: drop-shadow(0px 3px 10px rgba(57, 106, 191, 0.16));
         background-color: $trucker__primary-color;
         padding: 31px 30px;
         border-radius: 5px;
-        @include trucker__screen-575{
+
+        @include trucker__screen-575 {
             padding: 25px 15px;
         }
     }
-    .trucker__blog-date-tag{
+
+    .trucker__blog-date-tag {
         display: flex;
         align-items: center;
         gap: 33px;
     }
+
     .trucker__blog-tag,
-    .trucker__blog-date{
+    .trucker__blog-date {
         display: flex;
         align-items: center;
         gap: 8px;
     }
-    .tucker__blog-title{
+
+    .tucker__blog-title {
         margin-top: 15px;
-        a{
+
+        a {
             font-size: 22px;
             font-weight: 700;
             line-height: 32px;
             color: $trucker__secondary-color;
             transition: $trucker__transition;
-            &:hover{
+
+            &:hover {
                 color: $trucker__green;
             }
-            @include trucker__screen-1199{
-                br{
+
+            @include trucker__screen-1199 {
+                br {
                     display: none;
                 }
             }
         }
     }
-    .trucker__blog-btn{
+
+    .trucker__blog-btn {
         margin-top: 16px;
-        a{
+
+        a {
             display: flex;
             align-items: center;
             gap: 33px;
             font-family: $trucker__secondary-font;
-            .trucker__read-icon{
+
+            .trucker__read-icon {
                 opacity: 0;
                 transition: 0.4s ease-in-out;
             }
-            &:hover{
-                .trucker__read-icon{
+
+            &:hover {
+                .trucker__read-icon {
                     opacity: 1;
                 }
             }
         }
     }
-    .trucker__blog-right-site{
+
+    .trucker__blog-right-site {
         width: 50%;
-        @include trucker__screen-1199{
+
+        @include trucker__screen-1199 {
             width: 60%;
             margin-left: auto;
             margin-right: auto;
         }
-        @include trucker__screen-1099{
+
+        @include trucker__screen-1099 {
             width: 100%;
         }
-        .trucker__blog-right-item{
+
+        .trucker__blog-right-item {
             display: flex;
             align-items: center;
             margin-bottom: 30px;
-            @include trucker__screen-650{
-               display: block; 
-               img{
+
+            @include trucker__screen-650 {
+                display: block;
+
+                img {
                     margin-left: auto;
                     margin-right: auto;
-               }
+                }
             }
-            &:last-child{
+
+            &:last-child {
                 margin-bottom: 0px;
             }
-            .trucker__blog-details{
+
+            .trucker__blog-details {
                 padding: 15px 25px;
                 position: relative;
                 left: -25px;
-                @include trucker__screen-650{
+
+                @include trucker__screen-650 {
                     left: 0;
                 }
-                .tucker__blog-title{
+
+                .tucker__blog-title {
                     margin-top: 8px;
                 }
-                .trucker__blog-btn{
+
+                .trucker__blog-btn {
                     margin-top: 8px;
                 }
             }
         }
     }
-    .trucker__blog-left-site{
+
+    .trucker__blog-left-site {
         width: 50%;
-        @include trucker__screen-1199{
+
+        @include trucker__screen-1199 {
             margin-left: auto;
             margin-right: auto;
         }
-        @include trucker__screen-991{
+
+        @include trucker__screen-991 {
             width: 80%;
-            img{
+
+            img {
                 margin-left: auto;
                 margin-right: auto;
             }
         }
-        @include trucker__screen-767{
+
+        @include trucker__screen-767 {
             width: 100%;
         }
 
     }
 }
+
 // End Blog Area

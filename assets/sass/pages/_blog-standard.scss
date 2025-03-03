@@ -1,7 +1,8 @@
 // Start Blog Standard
-.trucker__img-blog-standard-wrapper{
+.trucker__img-blog-standard-wrapper {
     position: relative;
-    .trucker__blog-standard-video-play{
+
+    .trucker__blog-standard-video-play {
         width: 90px;
         height: 90px;
         background-color: $trucker__green;
@@ -15,7 +16,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        svg{
+
+        svg {
             position: absolute;
             top: -12%;
             left: -12%;
@@ -24,22 +26,26 @@
         }
     }
 }
-.trucker__blog-standard-meta-wrapper{
+
+.trucker__blog-standard-meta-wrapper {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-top: 30px;
 }
-.trucker__blog-standard-btn{
+
+.trucker__blog-standard-btn {
     margin-top: 29px;
-    a{
+
+    a {
         display: inline-block;
         border-radius: 0;
         font-family: $trucker__jost-font;
         font-size: 18px;
         font-weight: 700;
         padding: 19px 44px 19px 44px;
-        i{
+
+        i {
             rotate: 44deg;
             position: relative;
             right: -8px;
@@ -48,21 +54,25 @@
         }
     }
 }
-.trucker__blog-starndard-quets-wrapper{
+
+.trucker__blog-starndard-quets-wrapper {
     padding: 40px 32px;
     border-radius: 4px;
     background: #FFF;
     box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.10);
     margin-bottom: 40px;
-    .trucker__blog-standard-quets-icon{
+
+    .trucker__blog-standard-quets-icon {
         margin-bottom: 16px;
         display: block;
     }
-    .trucker__blog-standard-quets-writer-name{
+
+    .trucker__blog-standard-quets-writer-name {
         position: relative;
         margin-left: 55px;
         margin-top: 15px;
-        .trucker__blog-standard-quets-name-line{
+
+        .trucker__blog-standard-quets-name-line {
             width: 40px;
             height: 3px;
             background-color: $trucker__green;
@@ -74,19 +84,23 @@
         }
     }
 }
-.trucker__blog-details-left-site{
-    .trucker__fast-box-blog-standard{
+
+.trucker__blog-details-left-site {
+    .trucker__fast-box-blog-standard {
         margin-bottom: 40px;
-        &:last-child{
+
+        &:last-child {
             margin-bottom: 0;
         }
     }
-    .trucker__blog-page-swiching-wrapper{
+
+    .trucker__blog-page-swiching-wrapper {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 20px;
-        .trucker__blog-page-swiching{
+
+        .trucker__blog-page-swiching {
             width: 41px;
             height: 41px;
             font-size: 20px;
@@ -97,12 +111,14 @@
             text-align: center;
             border: 1px solid #C8C8C8;
             transition: $trucker__transition;
-            &:hover{
+
+            &:hover {
                 background-color: $trucker__green;
                 color: #fff;
                 border-color: transparent;
             }
-            &.trucker__current{
+
+            &.trucker__current {
                 background-color: $trucker__green;
                 color: #fff;
                 border-color: transparent;
@@ -110,4 +126,5 @@
         }
     }
 }
+
 // End Blog Standard

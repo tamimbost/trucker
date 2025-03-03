@@ -1,5 +1,5 @@
 // Start Slider Button Hero Home 2
-.trucker__slider-arrow{
+.trucker__slider-arrow {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,11 +7,13 @@
     position: absolute;
     width: 100%;
     z-index: 1;
-    @include trucker__screen-767{
+
+    @include trucker__screen-767 {
         top: 39%;
         transform: translateY(-50%);
     }
-    @include trucker__screen-575{
+
+    @include trucker__screen-575 {
         justify-content: center;
         gap: 25px;
         left: 50%;
@@ -20,7 +22,8 @@
         margin-top: 25px;
     }
 }
-.trucker__slider-btn{
+
+.trucker__slider-btn {
     position: relative;
     width: 80px;
     height: 80px;
@@ -32,17 +35,20 @@
     color: $trucker__green;
     font-size: 30px;
     transition: $trucker__transition;
-    @include trucker__screen-767{
+
+    @include trucker__screen-767 {
         width: 50px;
         height: 50px;
         line-height: 50px;
         font-size: 18px;
     }
-    &:hover{
+
+    &:hover {
         background-color: $trucker__green;
         color: $trucker__primary-color;
     }
-    &::before{
+
+    &::before {
         width: 90px;
         height: 90px;
         top: 50%;
@@ -52,30 +58,38 @@
         content: '';
         border-radius: 50%;
         border: 1px solid $trucker__green;
-        @include trucker__screen-767{
+
+        @include trucker__screen-767 {
             width: 60px;
             height: 60px;
         }
     }
-    &.trucker__next-slider-btn{
+
+    &.trucker__next-slider-btn {
         left: 38px;
-        @include trucker__screen-767{
+
+        @include trucker__screen-767 {
             left: 20px;
         }
-        @include trucker__screen-575{
+
+        @include trucker__screen-575 {
             left: 0;
         }
     }
-    &.trucker__prev-slider-btn{
+
+    &.trucker__prev-slider-btn {
         right: 38px;
-        @include trucker__screen-767{
+
+        @include trucker__screen-767 {
             left: -20px;
         }
-        @include trucker__screen-575{
+
+        @include trucker__screen-575 {
             left: 0;
         }
     }
 }
+
 // End Slider Button Hero Home 2
 
 // Start Jarallax Css 
@@ -83,7 +97,9 @@
     position: relative;
     z-index: 0;
 }
-.jarallax > .jarallax-img, picture.jarallax-img img {
+
+.jarallax>.jarallax-img,
+picture.jarallax-img img {
     position: absolute;
     object-fit: cover;
     top: 0;
@@ -92,21 +108,25 @@
     height: 100%;
     z-index: -1;
 }
+
 // End Jarallax Css
 
 // Start Slider Bullet Point
-.trucker__delivary-bullet-point{
+.trucker__delivary-bullet-point {
     text-align: center;
     margin-top: 45px;
-    @include trucker__screen-767{
+
+    @include trucker__screen-767 {
         margin-top: 30px;
     }
-    .swiper-pagination-bullet{
-        background-color:#88C2BB;
+
+    .swiper-pagination-bullet {
+        background-color: #88C2BB;
         width: 20px;
         height: 20px;
         border-radius: 50%;
-        &.swiper-pagination-bullet-active{
+
+        &.swiper-pagination-bullet-active {
             width: 25px;
             height: 25px;
             border-radius: 50%;
@@ -114,10 +134,11 @@
         }
     }
 }
+
 // End Slider Bullet Point
 
 // Start Slider Bullet Testimonial Area Home 2
-.trucker__slider-arrow-testimonial-home-2{
+.trucker__slider-arrow-testimonial-home-2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -128,7 +149,8 @@
     z-index: 1;
     width: 1296px;
     left: 50%;
-    @include trucker__screen-1399{
+
+    @include trucker__screen-1399 {
         position: unset;
         left: 0;
         top: 0;
@@ -139,47 +161,58 @@
         margin-top: 30px;
         width: 100%;
     }
-    .trucker__slider-testimonial-btn{
+
+    .trucker__slider-testimonial-btn {
         width: 56px;
         height: 56px;
         border-radius: 50%;
-        border:1px solid $trucker__gary;
+        border: 1px solid $trucker__gary;
         line-height: 56px;
         display: inline-block;
-        text-align:center;
+        text-align: center;
         transition: $trucker__transition;
-        &:hover{
+
+        &:hover {
             background-color: $trucker__green;
             color: $trucker__primary-color;
             border-color: transparent;
         }
-        &::before{
+
+        &::before {
             display: none;
         }
     }
-    .trucker__next-slider-testimonial-btn{
+
+    .trucker__next-slider-testimonial-btn {
         position: relative;
         left: -65px;
-        @include trucker__screen-1499{
+
+        @include trucker__screen-1499 {
             left: -30px;
         }
-        @include trucker__screen-1399{
+
+        @include trucker__screen-1399 {
             left: 0;
         }
     }
-    .trucker__prev-slider-testimonial-btn{
+
+    .trucker__prev-slider-testimonial-btn {
         position: relative;
         right: -65px;
-        @include trucker__screen-1499{
+
+        @include trucker__screen-1499 {
             right: -30px;
         }
-        @include trucker__screen-1399{
+
+        @include trucker__screen-1399 {
             right: 0;
         }
     }
 }
+
 // End Slider Bullet Testimonial Area Home 2
-.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+.odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
     text-align: left;
     display: block;
     position: absolute;
@@ -188,11 +221,4 @@
     right: 0;
     bottom: 0;
     overflow: unset;
-  }
-// .odometer-inside{
-//     // overflow: hidden;
-//     width: 105%;
-//     // display: flex;
-//     // align-items: center;
-//     // gap: 6px;
-// }
+}

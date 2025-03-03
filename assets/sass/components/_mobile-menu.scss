@@ -28,11 +28,13 @@
     z-index: 999;
     transition: right 0.7s ease-in-out;
 }
-.trucker__overlay:hover{
+
+.trucker__overlay:hover {
     cursor: url(../images/icon/cursor-close.svg), pointer;
 }
+
 .trucker__overlay.trucker__active {
-    right:0;
+    right: 0;
     width: 100%;
 }
 
@@ -73,40 +75,48 @@
     height: 45px;
     line-height: 45px;
     color: #062E39;
-    i{
+
+    i {
         transition: 0.9s;
     }
-    &:hover{
+
+    &:hover {
         color: #2A9D8F;
         border-color: #2A9D8F;
-        i{
-            rotate: 360deg;
+
+        i {
+            rotate: 90deg;
         }
     }
 }
 
-.trucker__mobile-menu-search{
+.trucker__mobile-menu-search {
     margin-top: 30px;
-    form{
+
+    form {
         display: flex;
         align-items: center;
         gap: 5px;
     }
-    input[type="text"]{
+
+    input[type="text"] {
         width: 85%;
         background-color: transparent;
         border: 1px solid #062E39;
         padding: 14px 12px;
         transition: linear 0.3s;
-        &:focus{
+
+        &:focus {
             border-color: #2A9D8F;
         }
-        &::placeholder{
+
+        &::placeholder {
             color: #062E39;
             font-size: 16px;
         }
     }
-    button[type="submit"]{
+
+    button[type="submit"] {
         padding: 14px 12px;
         border: 1px solid transparent;
         background-color: #2A9D8F;
@@ -115,41 +125,50 @@
         display: inline-block;
         text-align: center;
         transition: linear 0.4s;
-        &:hover{
+
+        &:hover {
             background-color: #062E39;
         }
     }
 }
-.trucker__mobile-menu-btn{
+
+.trucker__mobile-menu-btn {
     margin-top: 30px;
     margin-bottom: 30px;
-    .trucker__btn-style-1{
+
+    .trucker__btn-style-1 {
         display: block;
-        text-align: center; 
+        text-align: center;
     }
 }
-.mobile-menu-contact-info{
+
+.mobile-menu-contact-info {
     margin-top: 30px;
-    .trucker__header-topbar-info{
+
+    .trucker__header-topbar-info {
         display: block;
         color: #062E39;
         font-size: 18px;
         transition: linear 0.4s;
         margin-bottom: 15px;
-        &:last-child{
+
+        &:last-child {
             margin-bottom: 0;
         }
-        &:hover{
+
+        &:hover {
             color: #2A9D8F;
         }
     }
 }
-.mobile-menu-social-media{
+
+.mobile-menu-social-media {
     display: flex;
     margin-top: 30px;
     align-items: center;
     gap: 10px;
-    a{
+
+    a {
         width: 40px;
         height: 40px;
         line-height: 40px;
@@ -159,29 +178,35 @@
         display: inline-block;
         text-align: center;
         transition: linear 0.4s;
-        &:hover{
+
+        &:hover {
             background-color: #2A9D8F;
         }
     }
 }
-.trucker__mobile-menu-copyright{
+
+.trucker__mobile-menu-copyright {
     margin-top: 30px;
-    .trucker__mobile-menu-copyright-text{
+
+    .trucker__mobile-menu-copyright-text {
         font-size: 16px;
         font-weight: 500;
         color: #062E39;
-        &:hover{
-            a{
+
+        &:hover {
+            a {
                 color: #062E39;
             }
         }
-        a{
+
+        a {
             font-weight: 700;
             color: #2A9D8F;
             transition: linear 0.4s;
         }
     }
 }
+
 .trucker__nav-list {
     list-style: none;
 }
@@ -208,13 +233,16 @@
     padding: 5px 0;
     font-weight: 500;
     transition: linear 0.4s;
-    &:hover{
-        .trucker__toggle-btn{
+
+    &:hover {
+        .trucker__toggle-btn {
+
             &::after,
-            &::before{
+            &::before {
                 background-color: #2A9D8F;
             }
         }
+
         color: #2A9D8F;
     }
 }
@@ -282,7 +310,8 @@
     font-size: 18px;
     font-weight: 500;
     transition: linear 0.4s;
-    &:hover{
+
+    &:hover {
         color: #2A9D8F;
     }
 }
@@ -296,6 +325,7 @@
         opacity: 0;
         transform: translateX(-20px);
     }
+
     to {
         opacity: 1;
         transform: translateX(0);
@@ -307,11 +337,13 @@
         opacity: 0;
         transform: translateY(-10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
+
 .trucker__toggle-btn {
     width: 24px;
     height: 24px;
